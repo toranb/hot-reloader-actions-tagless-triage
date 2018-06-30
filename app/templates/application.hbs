@@ -1,5 +1,26 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+{{#if showModal}}
+  {{#x-modal
+      button=(component 'x-button'
+        label='Close modal!'
+        onClick=(action 'hideIt')
+      )
+      as |modal|
+  }}
+    {{#modal.section}}
+      Here is some content!
+    {{/modal.section}}
 
-{{outlet}}
+    {{#modal.section}}
+      Here is some other content.
+    {{/modal.section}}
+
+    {{#modal.section}}
+      <p>The content can have its own sections, as you'd expect!</p>
+      <p>Nothing crazy going on here. Just a normal template!</p>
+    {{/modal.section}}
+  {{/x-modal}}
+{{/if}}
+
+<button class='button' {{action 'showIt'}}>Show modal</button>
+
+{{ui-layout}}

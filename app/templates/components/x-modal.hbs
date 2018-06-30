@@ -1,0 +1,10 @@
+<div class='modal-backdrop'></div>
+<div class='modal'>
+  <div class='modal-content'>
+    {{yield (hash section=(component 'x-modal-section'))}}
+  </div>
+
+  {{#if button}}
+    {{component button buttonClass='modal-button'}}
+  {{/if}}
+</div>

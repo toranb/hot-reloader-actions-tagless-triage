@@ -1,0 +1,5 @@
+{{#parent-component as |state add|}}
+  {{#each state as |item|}}
+    {{child-component item=item click=add}}
+  {{/each}}
+{{/parent-component}}
