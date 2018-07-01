@@ -1927,9 +1927,9 @@ ember-cli-get-dependency-depth@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/ember-cli-get-dependency-depth/-/ember-cli-get-dependency-depth-1.0.0.tgz#e0afecf82a2d52f00f28ab468295281aec368d11"
 
-ember-cli-hot-loader@^0.4.4:
-  version "0.4.4"
-  resolved "https://registry.npmjs.org/ember-cli-hot-loader/-/ember-cli-hot-loader-0.4.4.tgz#0652de2140e8abd5add362ecf883ffc6aa94321e"
+ember-cli-hot-loader@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/ember-cli-hot-loader/-/ember-cli-hot-loader-1.0.0.tgz#3e6556c0c18158840bca3ba64c668095dc4c2a8b"
   dependencies:
     broccoli-stew "^1.5.0"
     ember-cli-babel "^6.6.0"
